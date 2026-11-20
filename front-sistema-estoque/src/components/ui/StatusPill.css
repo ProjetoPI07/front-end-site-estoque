@@ -1,0 +1,57 @@
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 6px 13px;
+  border-radius: var(--raio-pill);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.status-pill--estoque,
+.status-pill--aberta {
+  background: var(--cor-pill-aberta-fundo);
+  color: var(--cor-pill-aberta-texto);
+}
+
+.status-pill--baixo,
+.status-pill--vencendo {
+  background: var(--cor-alerta-suave);
+  color: var(--cor-alerta);
+}
+
+.status-pill--critico {
+  background: var(--cor-erro-suave);
+  color: #b91c1c;
+}
+
+.status-pill--vencendo {
+  background: var(--cor-pill-vencendo-fundo);
+  color: var(--cor-pill-vencendo-texto);
+}
+
+.status-pill--vencida {
+  background: var(--cor-pill-vencida-fundo);
+  color: var(--cor-pill-vencida-texto);
+}
+
+.status-pill--pago {
+  background: var(--cor-pill-paga-fundo);
+  color: var(--cor-pill-paga-texto);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: var(--cor-badge-contagem);
+  color: var(--cor-primaria);
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}

@@ -1,0 +1,129 @@
+.botao {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: var(--botao-altura);
+  padding: 0 22px;
+  border: 1px solid transparent;
+  border-radius: var(--raio-botao);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+  transition:
+    background var(--transicao),
+    border-color var(--transicao),
+    color var(--transicao),
+    box-shadow var(--transicao),
+    transform var(--transicao);
+}
+
+.botao:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.botao--primaria {
+  background: var(--cor-primaria);
+  color: #fff;
+  box-shadow: 0 6px 14px rgba(37, 99, 235, 0.2);
+}
+
+.botao--primaria:hover:not(:disabled) {
+  background: var(--cor-primaria-escura);
+  box-shadow: var(--sombra-primaria);
+}
+
+.botao--secundaria {
+  background: var(--cor-superficie);
+  border-color: var(--cor-borda);
+  color: var(--cor-texto);
+}
+
+.botao--secundaria:hover:not(:disabled) {
+  border-color: #cbd5e1;
+  background: #f8fafc;
+}
+
+.botao--fantasma {
+  background: transparent;
+  color: var(--cor-primaria);
+}
+
+.botao--fantasma:hover:not(:disabled) {
+  background: var(--cor-primaria-suave);
+}
+
+.botao--perigo {
+  background: var(--cor-erro);
+  color: #fff;
+}
+
+.botao--perigo:hover:not(:disabled) {
+  background: var(--cor-erro-escuro);
+}
+
+.botao:disabled {
+  opacity: 0.55;
+  box-shadow: none;
+}
+
+.botao--bloco {
+  width: 100%;
+}
+
+.botao--compacto {
+  min-height: 38px;
+  padding: 0 16px;
+  font-size: 14px;
+}
+
+.botao__icone {
+  flex: 0 0 auto;
+}
+
+.botao__texto {
+  display: inline-flex;
+  align-items: center;
+}
+
+.botao-icone {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--cor-texto-secundario);
+  transition:
+    background var(--transicao),
+    color var(--transicao),
+    border-color var(--transicao);
+}
+
+.botao-icone--suave {
+  background: var(--cor-primaria-suave);
+  color: var(--cor-primaria);
+}
+
+.botao-icone--suave:hover:not(:disabled) {
+  background: var(--cor-primaria-suave-alt);
+}
+
+.botao-icone--contorno {
+  background: var(--cor-superficie);
+  border-color: var(--cor-borda);
+  color: var(--cor-texto-secundario);
+}
+
+.botao-icone--contorno:hover:not(:disabled) {
+  background: #f8fafc;
+  color: var(--cor-texto);
+}
+
+.botao-icone:disabled {
+  opacity: 0.45;
+}

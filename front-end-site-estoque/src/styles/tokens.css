@@ -1,0 +1,114 @@
+/* Tokens extraídos das capturas de tela (imgs-prototipo). */
+:root {
+  /* Marca */
+  --cor-marca-azul: #246fb5;
+  --cor-marca-navy: #20283a;
+  --cor-marca-laranja: #ff9000;
+
+  /* Interface */
+  --cor-primaria: #2563eb;
+  --cor-primaria-escura: #1d4ed8;
+  --cor-primaria-suave: #eff6ff;
+  --cor-primaria-suave-alt: #dbeafe;
+  --cor-sidebar: #0f172a;
+  --cor-sidebar-texto: #e2e8f0;
+  --cor-sidebar-secundario: #94a3b8;
+  --cor-texto: #0f172a;
+  --cor-texto-secundario: #64748b;
+  --cor-texto-terciario: #94a3b8;
+  --cor-fundo-app: #f3f6fa;
+  --cor-fundo-login: #f8fafc;
+  --cor-superficie: #ffffff;
+  --cor-borda: #e2e8f0;
+  --cor-borda-campo: #e6ecf3;
+  --cor-divisoria: #f1f5f9;
+  --cor-divisoria-forte: #eef2f7;
+  --cor-sucesso: #10b981;
+  --cor-sucesso-suave: #d1fae5;
+  --cor-sucesso-texto: #047857;
+  --cor-alerta: #b45309;
+  --cor-alerta-suave: #fef3c7;
+  --cor-erro: #ef4444;
+  --cor-erro-escuro: #dc2626;
+  --cor-erro-suave: #fee2e2;
+  --cor-erro-halo: rgba(239, 68, 68, 0.12);
+  --cor-foco-halo: rgba(37, 99, 235, 0.14);
+  --cor-grafico-1: #2563eb;
+  --cor-grafico-2: #38bdf8;
+  --cor-grafico-3: #bfdbfe;
+  --cor-login-inicio: #131f42;
+  --cor-login-fim: #0b1730;
+  --cor-login-brilho: #2563eb;
+
+  /* Cobranças */
+  --cor-aba-ativa: #2563eb;
+  --cor-aba-inativa: #ffffff;
+  --cor-trilho-abas: #f4f7fb;
+  --cor-badge-contagem: #eff6ff;
+  --cor-cartao-aberto-fundo: #ffffff;
+  --cor-cartao-aberto-borda: #e2e8f0;
+  --cor-cartao-vencendo-fundo: #fffbeb;
+  --cor-cartao-vencendo-borda: #f59e0b;
+  --cor-cartao-vencida-fundo: #fff5f5;
+  --cor-cartao-vencida-borda: #ef4444;
+  --cor-cartao-paga-fundo: #f0fdf4;
+  --cor-cartao-paga-borda: #10b981;
+  --cor-pill-vencendo-fundo: #fde68a;
+  --cor-pill-vencendo-texto: #9a3412;
+  --cor-pill-vencida-fundo: #fecaca;
+  --cor-pill-vencida-texto: #a62222;
+  --cor-pill-paga-fundo: #a7f3d0;
+  --cor-pill-paga-texto: #047857;
+  --cor-pill-aberta-fundo: #dbeafe;
+  --cor-pill-aberta-texto: #1d4ed8;
+  --cor-progresso-trilha: #e1e7f0;
+  --cor-progresso-aberto: #2563eb;
+  --cor-progresso-pago: #10b981;
+
+  /* Tipografia */
+  --fonte-sans: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --texto-base: 19px;
+  --texto-sidebar: 18px;
+  --texto-marca: 20px;
+  --texto-titulo-pagina: 36px;
+  --texto-sobretitulo: 14px;
+  --texto-subtitulo: 19px;
+  --texto-rotulo: 16px;
+  --texto-tabela: 17px;
+
+  /* Espaços */
+  --esp-4: 4px;
+  --esp-8: 8px;
+  --esp-12: 12px;
+  --esp-16: 16px;
+  --esp-20: 20px;
+  --esp-24: 24px;
+  --esp-32: 32px;
+  --esp-40: 40px;
+  --padding-conteudo: 32px;
+  --gap-cards: 24px;
+  --gap-campos: 20px;
+
+  /* Raios */
+  --raio-card: 16px;
+  --raio-campo: 10px;
+  --raio-botao: 10px;
+  --raio-item-nav: 12px;
+  --raio-pill: 999px;
+
+  /* Sombras */
+  --sombra-card: 0 1px 2px rgba(15, 23, 42, 0.04);
+  --sombra-card-forte: 0 8px 24px rgba(15, 23, 42, 0.06);
+  --sombra-toast: 0 8px 24px rgba(15, 23, 42, 0.1);
+  --sombra-flutuante: 0 4px 12px rgba(15, 23, 42, 0.18);
+  --sombra-primaria: 0 8px 18px rgba(37, 99, 235, 0.22);
+
+  /* Medidas */
+  --sidebar-largura: 252px;
+  --cabecalho-altura: 64px;
+  --campo-altura: 52px;
+  --botao-altura: 48px;
+  --stepper-altura: 38px;
+
+  --transicao: 160ms ease;
+}

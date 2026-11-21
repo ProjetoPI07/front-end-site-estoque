@@ -1,0 +1,141 @@
+.form-cobranca {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 26px 32px 32px;
+  border-radius: 14px;
+}
+
+.form-cobranca__topo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 22px;
+}
+
+.form-cobranca__icone {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: var(--cor-primaria-suave);
+  color: var(--cor-primaria);
+}
+
+.form-cobranca__titulo {
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--cor-texto);
+}
+
+.form-cobranca__subtitulo {
+  margin-top: 3px;
+  color: var(--cor-texto-secundario);
+  font-size: 14px;
+}
+
+.form-cobranca__secao {
+  padding-top: 22px;
+  border-top: 1px solid var(--cor-divisoria);
+}
+
+.form-cobranca__secao:first-of-type {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.form-cobranca__secao-titulo {
+  margin-bottom: 14px;
+  color: var(--cor-texto);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.form-cobranca__campos {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-cobranca__grade {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 22px;
+}
+
+.form-cobranca .campo {
+  gap: 7px;
+}
+
+.form-cobranca .campo__rotulo {
+  font-size: 15px;
+}
+
+.form-cobranca .campo__input {
+  height: 48px;
+  font-size: 15px;
+}
+
+.form-cobranca__peca {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 88px auto;
+  gap: 12px;
+  align-items: end;
+}
+
+.form-cobranca__quantidade .campo__input {
+  text-align: center;
+  padding: 0 8px;
+}
+
+.form-cobranca__adicionar {
+  align-self: end;
+  height: 48px;
+  min-height: 48px;
+  padding: 0 18px;
+}
+
+.form-cobranca__erro {
+  margin-top: 9px;
+  color: #b91c1c;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.form-cobranca__data {
+  margin-top: 18px;
+}
+
+.form-cobranca__enviar {
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 26px;
+  padding: 0 18px;
+}
+
+.form-cobranca__enviar .botao__texto {
+  padding-left: 2px;
+}
+
+@media (max-width: 800px) {
+  .form-cobranca {
+    padding: 20px 18px 24px;
+  }
+
+  .form-cobranca__grade {
+    grid-template-columns: 1fr;
+  }
+
+  .form-cobranca__peca {
+    grid-template-columns: minmax(0, 1fr) 74px;
+  }
+
+  .form-cobranca__adicionar {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+}

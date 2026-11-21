@@ -1,9 +1,0 @@
-.cobrancas__conteudo {
-  margin-top: 24px;
-}
-
-@media (max-width: 800px) {
-  .cobrancas__conteudo {
-    margin-top: 16px;
-  }
-}

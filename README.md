@@ -34,12 +34,6 @@ npm run build    # build de produção em dist/
 npm run preview  # pré-visualização do build
 ```
 
-## Credenciais do protótipo
-
-- **E-mail:** qualquer e-mail em formato válido
-- **CPF:** `444.333.222-11`
-- **Senha:** `SENHA123`
-
 ## Telas e rotas
 
 | Rota | Tela | Conteúdo principal |
